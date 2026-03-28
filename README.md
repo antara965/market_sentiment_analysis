@@ -1,14 +1,16 @@
-# Market Sentiment vs Trader Behavior
+# Crypto Trader Behavior Analysis Using Market Sentiment
+
+ Live Dashboard: https://market-sentiment-analysis.streamlit.app/
 
 
 
-Objective
+## Objective
 
-Analyze how Bitcoin market sentiment (Fear vs Greed) affects trader performance and behavior on Hyperliquid.
+The objective is to understand how trader performance, risk-taking, and behavior vary across different emotional market conditions such as **Fear** and **Greed**.
 
 
 
-Dataset
+## Dataset
 
 \- Bitcoin Fear/Greed Index
 
@@ -16,77 +18,28 @@ Dataset
 
 
 
-Methodology
+## Methodology
 
 \- Data cleaning and preprocessing
 
 \- Feature engineering (PnL, win rate, trade frequency, etc.)
 
-\- Sentiment-based comparison
+\- EDA
 
-\- Segment analysis
+\- Statistical Analysis
 
-
-
-Key Insights
+\- Clustering
 
 
 
-1\. From the PnL distribution plot
+## Insights
+- Trader behavior varies significantly with market sentiment  
+- Increased trading activity does not always improve profitability  
+- Larger position sizes combined with frequent trading increase risk  
+- Distinct trader groups exist based on behavioral patterns 
 
+- A few extreme values (both positive \& negative) dominate
 
-
-\- Most traders cluster around near-zero PnL
-
-\- A few extreme values (both positive \& negative) dominate
-
-\- This pattern exists across all sentiment types
-
-
-
-Hence, profitability is not uniform; a small number of traders (likely high-volume or skilled traders) drive most profits and losses.
-
-
-
-2\. Comparing Fear vs Greed:
-
-
-
-\- No clear shift in median PnL across sentiment types
-
-\- Large variance exists in all conditions
-
-Market sentiment alone does not guarantee profitability. Trader skill and strategy play a larger role than sentiment.
-
-
-
-3\. From the win rate plot:
-
-\- Extreme Greed shows slightly higher median win rate
-
-\- Extreme Fear shows lower win rate
-
-Traders tend to win more often in bullish (Greed) conditions, likely due to trending markets.
-
-
-
-4\. From the num\_trades plot:
-
-\- Higher number of trades in Fear and Neutral periods
-
-\- Large outliers (overtrading behavior)
-
-Traders tend to overtrade during uncertain or volatile conditions (Fear), possibly trying to recover losses or react to rapid price movements.
-
-
-
-5\. From avg\_size plot:
-
-\- Larger trade size outliers in Fear periods
-
-\- More aggressive positioning
-
-Traders take larger, riskier positions during Fear, indicating emotional or reactive trading behavior.
 
 
 
