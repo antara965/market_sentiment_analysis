@@ -40,56 +40,29 @@ The objective is to understand how trader performance, risk-taking, and behavior
 
 - A few extreme values (both positive \& negative) dominate
 
-
-
-
-
-
-Strategy Recommendations
-
-
+## Strategy Recommendations
 
 1\. Avoid overtrading during Fear
 
-
-
 Traders significantly increase trading frequency during Fear periods, often leading to poor decision-making.
-
-
 
 2\. Reduce position size during Fear
 
-
-
 Larger trade sizes during Fear indicate increased risk-taking, which may lead to larger losses.
-
-
 
 3\. Follow trend during Greed
 
-
-
 Higher win rates in Greed periods suggest that trending markets are easier to trade.
-
-
 
 4\. Avoid emotional "buy the dip" trades
 
-
-
 Increased long bias during Fear suggests traders are prematurely entering long positions.
-
-
 
 5\. Focus on consistency over high-risk trades
 
-
-
 Profitability is driven by a few extreme outcomes rather than consistent gains.
 
-
-
-How to Run
+## How to Run
 
 1\. Install dependencies:
 
