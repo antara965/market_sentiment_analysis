@@ -1,6 +1,6 @@
 # Crypto Trader Behavior Analysis Using Market Sentiment
 
- Live Dashboard: https://market-sentiment-analysis.streamlit.app/
+ Live Dashboard: [https://market-sentiment-analysis.streamlit.app/](https://market-sentiment-app-baewgzhdcxedfefc.centralindia-01.azurewebsites.net/)
 
 
 
